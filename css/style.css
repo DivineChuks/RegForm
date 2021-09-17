@@ -48,8 +48,19 @@ input:focus {
 }
 
 @media (max-width: 768px) {
-  /* body {
-    background-image: none;
-    background-color: #000 !important;
-  } */
+  .logo {
+    margin-left: 26px;
+  }
+
+  .login {
+    margin-right: 10px;
+  }
+
+  .copy p {
+    font-size: 12px;
+  }
+
+  label.confirm {
+    font-size: 14px !important;
+  }
 }
